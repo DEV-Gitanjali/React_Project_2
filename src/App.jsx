@@ -1,10 +1,11 @@
 import React from 'react'
+import Navbar from "./Components/Navbar"
 
-const App = () => {
+function App  () {
   return (
-    <div >
-      
-    </div>
+    <div className='w-full h-screen bg-zinc-900 text-white  font -["satoshi_variable"]'>
+      <Navbar/>
+      </div>
   )
 }
 
