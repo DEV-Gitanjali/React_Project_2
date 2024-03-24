@@ -1,9 +1,9 @@
 import React from 'react';
 import { LuArrowRight } from "react-icons/lu";
 
-function Card({width , start , para}) {
+function Card({width , start , para , hover }) {
   return (
-<div className= {`bg-zinc-800 p-5 rounded-xl ${width} min-h-60`}>
+<div className= {`bg-zinc-800 p-5 rounded-xl  hover:${hover} ${width} min-h-[30rem] flex flex-col justify-between`}>
     <div>
 
       <div className='w-full flex justify-between items-center'>
